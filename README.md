@@ -35,6 +35,21 @@ tuteliq detect-bullying "Text to analyze"
 
 # Detect grooming patterns
 tuteliq detect-grooming -m '[{"role":"adult","content":"..."}]'
+
+# Voice analysis
+tuteliq voice recording.mp3
+
+# Image analysis
+tuteliq image screenshot.png
+
+# Webhook management
+tuteliq webhook list
+
+# Usage
+tuteliq usage monthly
+
+# Pricing
+tuteliq pricing --details
 ```
 
 ## Get an API Key

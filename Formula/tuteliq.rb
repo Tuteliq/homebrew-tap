@@ -1,8 +1,9 @@
-class Safenest < Formula
+class Tuteliq < Formula
   desc "AI-powered child safety analysis from your terminal"
-  homepage "https://tuteliq.dev"
-  url "https://registry.npmjs.org/@tuteliq/cli/-/cli-1.1.0.tgz"
-  sha256 "6e59f519e67737f27353b8e0d8c404c451796f73966eb1245fec9ef19349ac73"
+  homepage "https://tuteliq.ai"
+  url "https://registry.npmjs.org/@tuteliq/cli/-/cli-2.1.0.tgz"
+  # sha256 will be updated after npm publish
+  sha256 ""
   license "MIT"
 
   depends_on "node"
