@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Tuteliq Homebrew Tap
+message: "If you use this software, please cite it using this metadata."
+type: software
+authors:
+  - name: Tuteliq
+    website: https://tuteliq.ai
+repository-code: https://github.com/Tuteliq/homebrew-tap
+url: https://tuteliq.ai
+abstract: >-
+  Homebrew tap for installing the Tuteliq CLI on macOS and Linux
+keywords:
+  - Homebrew
+  - CLI
+  - macOS
+  - Linux
+  - child safety
+  - Tuteliq
+license: MIT
