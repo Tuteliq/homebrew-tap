@@ -50,6 +50,14 @@ tuteliq usage monthly
 
 # Pricing
 tuteliq pricing --details
+
+# Age Verification (Beta — Pro tier, 5 credits)
+tuteliq verify age --document id-front.jpg --method document
+tuteliq verify age --selfie selfie.jpg --method biometric
+tuteliq verify age --document id-front.jpg --selfie selfie.jpg --method combined
+
+# Identity Verification (Beta — Business tier, 10 credits)
+tuteliq verify identity --document id-front.jpg --selfie selfie.jpg
 ```
 
 ## Get an API Key
