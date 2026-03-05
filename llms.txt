@@ -1,0 +1,35 @@
+# Tuteliq Homebrew Tap
+
+> Homebrew tap for installing the Tuteliq CLI on macOS and Linux.
+
+## What is this?
+A Homebrew tap that provides an easy way to install the Tuteliq CLI tool on macOS and Linux systems.
+
+## Install
+brew tap Tuteliq/tap
+brew install tuteliq
+
+## Usage
+After installation, use the tuteliq command:
+export TUTELIQ_API_KEY=tq_your_key
+tuteliq detect unsafe --text "message to check" --age-group 13-15
+
+## Verification Features (Beta)
+
+### Age Verification
+- Tier: Pro ($99/mo)+
+- Credits: 5 per request
+- Endpoint: POST /v1/verification/age
+- Methods: document, biometric, combined
+- CLI: tuteliq verify age --document id-front.jpg --method document
+
+### Identity Verification
+- Tier: Business ($349/mo)+
+- Credits: 10 per request
+- Endpoint: POST /v1/verification/identity
+- CLI: tuteliq verify identity --document id-front.jpg --selfie selfie.jpg
+
+## Links
+- Website: https://tuteliq.ai
+- CLI GitHub: https://github.com/Tuteliq/cli
+- GitHub: https://github.com/Tuteliq/homebrew-tap
